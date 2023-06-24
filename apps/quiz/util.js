@@ -1,41 +1,63 @@
+// Helper functions
 const fs = require("fs")
+const path = require("path")
 
 function parseQuestion(raw_question) {
   const lines = raw_question.split("\n").filter((line) => line.trim() !== "")
   const question_text = lines.shift()
 
   const question_options = []
-  let option_label = ""
-  let option_text = ""
+  const optionRegex = /^([A-Z]+[.)])\s*(.*)$/
 
   for (const line of lines) {
-    const hasOptionLabel = /^[A-Za-z]\./.test(line)
-    if (hasOptionLabel) {
-      if (option_label && option_text) {
-        question_options.push(`${option_label} ${option_text.trim()}`)
-      }
-      const [label, ...textParts] = line.split(" ")
-      option_label = label
-      option_text = textParts.join(" ")
-    } else {
-      option_text += ` ${line}`
+    const match = line.match(optionRegex)
+    if (match) {
+      question_options.push(`${match[1]} ${match[2].trim()}`)
     }
-  }
-
-  // Add the last option if available
-  if (option_label && option_text) {
-    question_options.push(`${option_label} ${option_text.trim()}`)
   }
 
   return { question_text, question_options }
 }
 
-function saveRawQuestion(raw_question, index) {
-  return new Promise((resolve, reject) => {
-    const fileName = `raw_question_${index}.json`
-    const data = { raw_question }
+// function saveRawQuestions(raw_questions) {
+//   return new Promise((resolve, reject) => {
+//     const uploadFolder = "output"
+//     if (!fs.existsSync(uploadFolder)) {
+//       fs.mkdirSync(uploadFolder)
+//     }
 
-    fs.writeFile(fileName, JSON.stringify(data, null, 2), (err) => {
+//     const fileName = path.join(uploadFolder, "raw_questions.json")
+
+//     fs.writeFile(fileName, JSON.stringify(raw_questions, null, 2), (err) => {
+//       if (err) {
+//         console.error(`Error writing file: ${fileName}`)
+//         reject(err)
+//       } else {
+//         console.log(`File saved: ${fileName}`)
+//         resolve()
+//       }
+//     })
+//   })
+// }
+
+function saveRawQuestions(raw_questions, category) {
+  return new Promise((resolve, reject) => {
+    const uploadFolder = "output"
+    if (!fs.existsSync(uploadFolder)) {
+      fs.mkdirSync(uploadFolder)
+    }
+
+    const timeStamp = new Date()
+      .toISOString()
+      .replace(/[:-]/g, "")
+      .replace("T", "_")
+      .replace(/\..+/, "")
+    const fileName = path.join(
+      uploadFolder,
+      `${category}_${timeStamp}_raw_questions.json`
+    )
+
+    fs.writeFile(fileName, JSON.stringify(raw_questions, null, 2), (err) => {
       if (err) {
         console.error(`Error writing file: ${fileName}`)
         reject(err)
@@ -47,7 +69,12 @@ function saveRawQuestion(raw_question, index) {
   })
 }
 
+function delay(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
+
 module.exports = {
   parseQuestion,
-  saveRawQuestion
+  saveRawQuestions,
+  delay
 }

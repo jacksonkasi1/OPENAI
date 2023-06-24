@@ -1,0 +1,146 @@
+[
+  {
+    "type": "SingleSelect",
+    "question_text": "Question: What is the primary benefit of shopping at DMart? ",
+    "question_options": [
+      "A) Wide selection of products",
+      "B) Great offers and discounts",
+      "C) Hassle-free shopping experience",
+      "D) Secured payments",
+      "E) Fast and reliable delivery",
+      "F) All of the above"
+    ]
+  },
+  {
+    "type": "MultiSelect",
+    "question_text": "Question: What are the benefits of shopping at DMart?",
+    "question_options": [
+      "A) Low prices",
+      "B) Wide selection",
+      "C) Convenient locations",
+      "D) Quick checkout",
+      "E) Quality items",
+      "F) Rewards programs"
+    ]
+  },
+  {
+    "type": "MultiSelect",
+    "question_text": "Question: What are the benefits of shopping at DMart?",
+    "question_options": [
+      "A) Low prices",
+      "B) Huge selection of products",
+      "C) Easy returns",
+      "D) Convenient stores",
+      "E) Quality products",
+      "F) Reward points system"
+    ]
+  },
+  {
+    "type": "StarRating",
+    "question_text": "Question: How would you rate your Overall Experience at Dmart Shopping?",
+    "question_options": [
+      "A) Bad",
+      "B) Below Average",
+      "C) Average",
+      "D) Good",
+      "E) Very Good",
+      "F) Excellent"
+    ]
+  },
+  {
+    "type": "StarRating",
+    "question_text": "Question: How would you rate your last shopping experience in Dmart?",
+    "question_options": [
+      "A) Excellent",
+      "B) Good",
+      "C) Average",
+      "D) Poor",
+      "E) Very Poor",
+      "F) Terrible"
+    ]
+  },
+  {
+    "type": "StarRating",
+    "question_text": "Question: How would you rate your dMart shopping experience?",
+    "question_options": [
+      "A) Excellent",
+      "B) Good",
+      "C) Average",
+      "D) Poor",
+      "E) Very Poor",
+      "F) Terrible"
+    ]
+  },
+  {
+    "type": "SmileyScale",
+    "question_text": "Question: How do you feel about shopping at dmart?",
+    "question_options": [
+      "A) Very Positive",
+      "B) Positive",
+      "C) Neutral",
+      "D) Negative",
+      "E) Very Negative",
+      "F) Not applicable"
+    ]
+  },
+  {
+    "type": "SmileyScale",
+    "question_text": "Question: How would you rate your overall dmart shopping experience?",
+    "question_options": [
+      "A) Very Satisfied",
+      "B) Satisfied",
+      "C) Neutral",
+      "D) Dissatisfied",
+      "E) Very Dissatisfied",
+      "F) N/A - Did Not Shop at dmart"
+    ]
+  },
+  {
+    "type": "SmileyScale",
+    "question_text": "Question: What would be your reaction if you got to shop from Dmart?",
+    "question_options": [
+      "A) Happy 😊",
+      "B) Excited 😃",
+      "C) Bored 😐",
+      "D) Indifferent 😶",
+      "E) Annoyed 😠",
+      "F) Displeased 😞"
+    ]
+  },
+  {
+    "type": "SmileyScale",
+    "question_text": "Question: How do you rate your overall experience with dmart Shopping?",
+    "question_options": [
+      "A) Very Satisfied",
+      "B) Satisfied",
+      "C) Neutral",
+      "D) Unsatisfied",
+      "E) Very Unsatisfied",
+      "F) Not Applicable"
+    ]
+  },
+  {
+    "type": "NPS",
+    "question_text": "Question: How likely are you to recommend Dmart shopping to a friend?",
+    "question_options": [
+      "A) Highly Likely",
+      "B) Likely",
+      "C) Neutral",
+      "D) Unlikely",
+      "E) Highly Unlikely",
+      "F) Don't Know"
+    ]
+  },
+  {
+    "type": "NPS",
+    "question_text": "Question: How likely are you to recommend DMart shopping to a friend or colleague?",
+    "question_options": [
+      "A) Highly Likely",
+      "B) Likely",
+      "C) Neither Likely nor Unlikely",
+      "D) Unlikely",
+      "E) Highly Unlikely",
+      "F) I haven't tried DMart Shopping"
+    ]
+  }
+]

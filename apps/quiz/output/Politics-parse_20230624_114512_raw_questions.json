@@ -1,0 +1,62 @@
+[
+  {
+    "type": "SingleSelect",
+    "question_text": "Question: How has President Donald Trump's tenure impacted the US economy?",
+    "question_options": [
+      "A) It has had a positive impact",
+      "B) It has had a negative impact",
+      "C) It has had a minimal impact",
+      "D) It has had a mixed impact",
+      "E) It has had no impact",
+      "F) It is too soon to tell"
+    ]
+  },
+  {
+    "type": "MultiSelect",
+    "question_text": "Question: What has been the Trump Administration's primary policy focus for 2020?",
+    "question_options": [
+      "A) Immigration",
+      "B) Gun Control",
+      "C) Tax Reform",
+      "D) Healthcare",
+      "E) Education",
+      "F) Trade Negotiations"
+    ]
+  },
+  {
+    "type": "StarRating",
+    "question_text": "Question: How would you rate Donald Trump’s performance as US President?",
+    "question_options": [
+      "A) Outstanding",
+      "B) Good",
+      "C) Average",
+      "D) Poor",
+      "E) Terrible",
+      "F) N/A"
+    ]
+  },
+  {
+    "type": "SmileyScale",
+    "question_text": "Question: How do you feel about Donald Trump's Presidency in The United States? ",
+    "question_options": [
+      "A) Very Happy",
+      "B) Somewhat Happy",
+      "C) Neutral",
+      "D) Somewhat Unhappy",
+      "E) Very Unhappy",
+      "F) Undecided"
+    ]
+  },
+  {
+    "type": "NPS",
+    "question_text": "Question: How would you rate President Donald Trump's handling of politics?",
+    "question_options": [
+      "A) Excellent",
+      "B) Good",
+      "C) Average",
+      "D) Poor",
+      "E) Terrible",
+      "F) Haven't followed enough to say"
+    ]
+  }
+]

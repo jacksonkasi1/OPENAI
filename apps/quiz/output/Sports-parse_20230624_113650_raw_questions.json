@@ -1,0 +1,62 @@
+[
+  {
+    "type": "SingleSelect",
+    "question_text": "Question: What should be the slogan for the Rio 2016 Olympics?",
+    "question_options": [
+      "A) Aim High, Achieve Greater",
+      "B) Ready to Challenge",
+      "C) Reaching New Heights",
+      "D) Beyond the Limits",
+      "E) Dare to Dream",
+      "F) Rise Up Together"
+    ]
+  },
+  {
+    "type": "MultiSelect",
+    "question_text": "Question: What sports were contested at the 2016 Rio de Janeiro Olympic Games?",
+    "question_options": [
+      "A) Cycling",
+      "B) Soccer",
+      "C) Badminton",
+      "D) Swimming",
+      "E) Tennis",
+      "F) Volleyball"
+    ]
+  },
+  {
+    "type": "StarRating",
+    "question_text": "Question: How would you rate the Rio de Janeiro 2016 Olympic Games?",
+    "question_options": [
+      "A) Poor",
+      "B) Average",
+      "C) Good",
+      "D) Very Good",
+      "E) Excellent",
+      "F) Outstanding"
+    ]
+  },
+  {
+    "type": "SmileyScale",
+    "question_text": "Question: What were the main topics related to the Rio de Janeiro 2016 Olympic Games?",
+    "question_options": [
+      "A) Sports competitions",
+      "B) Environmental concerns",
+      "C) Political debates",
+      "D) Cultural events",
+      "E) Health initiatives",
+      "F) Transportation issues"
+    ]
+  },
+  {
+    "type": "NPS",
+    "question_text": "Question: What was the significance of the 2016 Rio de Janeiro Olympic Games?",
+    "question_options": [
+      "A) The first Summer Olympics ever held in South America",
+      "B) The first time the Winter Olympics were held in the Southern Hemisphere",
+      "C) The most attended Olympic Games in history",
+      "D) The biggest sporting event of the year",
+      "E) The most decorated Olympic Games of all time",
+      "F) The longest running Olympic Games in modern history"
+    ]
+  }
+]

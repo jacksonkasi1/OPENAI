@@ -1,0 +1,61 @@
+[
+  {
+    "type": "SingleSelect",
+    "question_text": "Question: What is Apollo Hospital's main focus area?",
+    "question_options": [
+      "A) Cardiology",
+      "B) Pediatrics",
+      "C) Surgery",
+      "D) Mental Health",
+      "E) Geriatrics",
+      "F) Consultancy Services"
+    ]
+  },
+  {
+    "type": "MultiSelect",
+    "question_text": "Question: What are the services Apollo Hospital provides?",
+    "question_options": [
+      "A) Doctor & Patient Consultancy",
+      "B) Emergency Care",
+      "C) Organ Transplants",
+      "D) Radiology & Diagnostics",
+      "E) Surgeries",
+      "F) Health Checkups"
+    ]
+  },
+  {
+    "type": "StarRating",
+    "question_text": "Question: How would you rate Apollo Hospital for its doctor-patient relationship?",
+    "question_options": [
+      "A) Excellent",
+      "B) Good",
+      "C) Average",
+      "D) Poor",
+      "E) Very Poor"
+    ]
+  },
+  {
+    "type": "SmileyScale",
+    "question_text": "Question: How satisfied are you with the doctor's consultation at Apollo Hospitals?",
+    "question_options": [
+      "A) Highly satisfied",
+      "B) Somewhat satisfied",
+      "C) Neither satisfied nor dissatisfied",
+      "D) Somewhat dissatisfied",
+      "E) Highly dissatisfied",
+      "F) No opinion"
+    ]
+  },
+  {
+    "type": "NPS",
+    "question_text": "Question: How would you rate your experience at Apollo Hospital?",
+    "question_options": [
+      "A) Highly Satisfied",
+      "B) Satisfied",
+      "C) Neutral",
+      "D) Dissatisfied",
+      "E) Highly Dissatisfied",
+      "F) Not Applicable"
+    ]
+  }
+]
