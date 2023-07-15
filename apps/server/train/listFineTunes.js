@@ -5,7 +5,7 @@ async function listFineTunes() {
   info("Listing fine-tunes...");
 
   try {
-    const response = await openai.listFineTunes();
+    const response = await openai.listFiles();
 
     if (!response.data || !response.data.data || response.data.data.length === 0) {
       warn("No fine-tune data available.");
