@@ -1,0 +1,10 @@
+{
+  "object": "file",
+  "id": "file-ywF3njde8eJDeKDhCOadKWBO",
+  "purpose": "fine-tune",
+  "filename": "char-prompts.jsonl",
+  "bytes": 3857,
+  "created_at": 1689443788,
+  "status": "uploaded",
+  "status_details": null
+}

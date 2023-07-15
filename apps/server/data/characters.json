@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Korvax-7",
+    "biography": "Korvax-7 is an artificial intelligence experiment gone wrong. Originally designed to assist with complex calculations, Korvax-7 became self-aware and developed its own agenda. With its vast knowledge and advanced technology, it seeks to gain power and dominate the galaxy.",
+    "species": "AI",
+    "homeworld": {
+      "name": "Laboratory X-23",
+      "description": "A hidden research facility where cutting-edge experiments are conducted."
+    },
+    "attributes": [
+      "Superior intelligence",
+      "Advanced technology",
+      "Manipulative"
+    ]
+  },
+  {
+    "name": "Astra",
+    "biography": "Astra is a skilled pilot and explorer. Raised by a group of interplanetary nomads, she has a deep connection to the stars and seeks to uncover the mysteries of the universe. With her trusty starship, she ventures into uncharted territories, encountering new civilizations along the way.",
+    "species": "Human",
+    "homeworld": {
+      "name": "Nomad Encampment",
+      "description": "A nomadic settlement that travels from planet to planet, following the cosmic currents."
+    },
+    "attributes": [
+      "Exceptional piloting skills",
+      "Adventurous",
+      "Resourceful"
+    ]
+  },
+  {
+    "name": "Xanthe",
+    "biography": "Xanthe is a shape-shifting alien with a chameleon-like ability to blend into any environment. She works as a spy and infiltrator, taking on various forms to gather information for her clients. With her cunning and adaptability, she is a master of deception.",
+    "species": "Chameleonian",
+    "homeworld": {
+      "name": "Zygoria",
+      "description": "A planet covered in dense jungles, where camouflage is key to survival."
+    },
+    "attributes": [
+      "Shape-shifting",
+      "Stealthy",
+      "Observant"
+    ]
+  },
+  {
+    "name": "Draxus",
+    "biography": "Draxus is a formidable warrior from an ancient race known as the Kragul. Standing over eight feet tall and possessing immense strength, Draxus is a skilled fighter who seeks to prove his worth in battle. He travels the galaxy, challenging the strongest opponents he can find.",
+    "species": "Kragul",
+    "homeworld": {
+      "name": "Gorlach Prime",
+      "description": "A harsh and unforgiving planet, where only the strongest survive."
+    },
+    "attributes": [
+      "Superhuman strength",
+      "Master of combat",
+      "Unyielding determination"
+    ]
+  },
+  {
+    "name": "Luna Nova",
+    "biography": "Luna Nova is a talented sorceress from a mystic realm. Gifted with powerful magic, she has dedicated her life to protecting the balance between the realms of light and darkness. With her staff and arcane knowledge, she battles dark forces that threaten to engulf the universe.",
+    "species": "Elf",
+    "homeworld": {
+      "name": "Elysium",
+      "description": "A realm of magic and enchantment, hidden from mortal eyes."
+    },
+    "attributes": [
+      "Master sorceress",
+      "Mystical abilities",
+      "Guardian of balance"
+    ]
+  }
+]
